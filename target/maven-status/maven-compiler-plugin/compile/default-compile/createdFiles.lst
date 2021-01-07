@@ -1,0 +1,5 @@
+com\everis\reniec\app\controller\ReniecController.class
+com\everis\reniec\app\ReniecApplication.class
+com\everis\reniec\app\entity\PersonResponse.class
+com\everis\reniec\app\entity\ReniecResponse.class
+com\everis\reniec\app\config\SwaggerConfig.class

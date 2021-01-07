@@ -21,7 +21,7 @@ public class ReniecController {
   @ApiOperation(value = "Validacion por DNI", response = ReniecResponse.class)
   @ApiResponse(code = 200, message = "Api ok", response = ReniecResponse.class)
   @PostMapping("/validate")
-  public Single<ReniecResponse> validate(@RequestBody PersonResponse request) {
+  public Single<ReniecResponse> validateReniecInfo(@RequestBody PersonResponse request) {
     return Single.just(new ReniecResponse("Reniec", true));
   }
 
